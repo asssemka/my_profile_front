@@ -14,10 +14,6 @@ export const fetchPostsSuccess = (posts) => ({
   payload: posts,
 });
 
-export const fetchPostsFailure = (error) => ({
-  type: FETCH_POSTS_FAILURE,
-  payload: error,
-});
 
 export const addPost = (post) => ({
   type: ADD_POST,
